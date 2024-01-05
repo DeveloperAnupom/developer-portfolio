@@ -97,7 +97,6 @@ main {
     padding: 100px 70px;
     text-align: center;
     border-radius: 40px 1px 40px 1px;
-    border: 3px solid rgb(109, 106, 106);
     box-shadow: 3px 5px 20px rgb(99, 97, 97);
 }
 .main-title {
@@ -112,4 +111,34 @@ main {
 }
 .info-box > h3 {
     color:rgb(66, 66, 66)
+}
+
+/* ---------what section style ------*/
+.what-section {
+    margin : 80px auto;
+    padding: 30px;
+    text-align: center;
+}
+.what-title {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+ .exp-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+ }
+.exp-box {
+    height : 200px;
+    width: 300px;
+    background-color: antiquewhite;
+    margin : 30px 10px;
+    padding: 30px 20px;
+    border-radius: 40px 1px 40px 1px;
+    box-shadow: 3px 5px 20px rgb(99, 97, 97);
+}
+
+.exp-description {
+    font-size: 14px;
+    margin-top:10px;
 }
