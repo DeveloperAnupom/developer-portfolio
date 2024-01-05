@@ -178,4 +178,48 @@ hr {
 }
 .button {
     text-align: center;
+    margin-top: 40px;
+}
+
+/* _____footer section style________ */
+
+.footer-section {
+    background-color: rgb(194, 247, 247);
+}
+.footer-container {
+    width:70%;
+    margin: auto;
+    padding: 70px;
+}
+.footer-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.media-box {
+    width : 40%;
+}
+.media-box > h1 {
+    font-size: 30px; 
+}
+.media-box-description {
+    margin:20px 0px 10px 0px;
+}
+.social-media > img {
+    margin:20px 20px 20px 0px;
+}
+.form-box > h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+ }
+form input {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 15px 1px 15px 1px;
+}
+textarea {
+    border-radius: 15px 1px 15px 1px;
+    margin-bottom: 10px;
 }
