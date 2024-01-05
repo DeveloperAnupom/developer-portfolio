@@ -1,21 +1,24 @@
+/* --------------------unversal style -----------------------*/
+
 * {
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
 }
 
-/* navbar section design */
+/* ------------------ navbar section design ---------------- */
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 20px auto;
+    padding: 20px 0px;
+
 }
 
 .nav-title {
     color: rgb(44, 43, 43);
     font-size: 40px;
-    font-weight:900;
+
 }
 
 .nav-title-extra {
@@ -30,7 +33,7 @@ nav > ul {
 
 nav li {
     list-style: none;
-    font-size: 25px;
+    font-size: 23px;
     margin-right: 50px;
 }
 
@@ -41,8 +44,41 @@ nav a {
 .primary-button {
     background-color: orangered;
     color: aliceblue;
-    border: none;
-    font-size: 20px;
+    border: 1px solid rgb(51, 49, 49);
+    font-size: 19px;
     padding: 10px 15px;
-    border-radius: 18px 1px 18px 1px ;
+    border-radius: 18px 1px 18px 1px;
+}
+
+/*----------- header section style ------------ */
+
+.header-section {
+    height: 100vh;
+    background-color: rgb(241, 213, 181);
+}
+.banner {
+    display: flex;
+    align-items: center;
+}
+.banner-box {
+    width:35%;
+    margin-left:13%;
+    padding:7% 0; 
+}
+
+.banner-hi {
+    font-size: 40px;
+    margin-left: 10px;
+}
+.banner-title {
+    font-size: 60px;
+}
+.banner-description {
+    line-height: 30px;
+    margin-bottom: 12px;
+}
+.developer-image {
+    height:512px; 
+    width :450px;
+    margin-left : 10%;
 }
