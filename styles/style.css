@@ -209,17 +209,16 @@ hr {
     margin:20px 20px 20px 0px;
 }
 .form-box > h1 {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 40px;
  }
-form input {
+form input ,textarea {
+    width: 300px;
     display: block;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     padding: 10px;
+    border:none;
     border-radius: 15px 1px 15px 1px;
-}
-textarea {
-    border-radius: 15px 1px 15px 1px;
-    margin-bottom: 10px;
+    box-shadow: 1px 3px 10px rgb(99, 97, 97);
 }
